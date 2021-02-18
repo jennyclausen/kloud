@@ -1,0 +1,1321 @@
+/* screen - quiz-web-page-lifestyle-habits */
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+.brandongrotesque-bold-curious-blue-28px {
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-bold-curious-blue-48px {
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-bold-white-36px {
+  color: var(--white);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-medium-curious-blue-22px {
+  color: var(--curious-blue);
+  font-family: 'BrandonGrotesque-Medium', Helvetica, Arial, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quiz-web-page-lifestyle-habits {
+  background-color: var(--link-water);
+  height: 800px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1280px;
+}
+.quiz-web-page-lifestyle-habits .aqi-kK5LvP {
+  background-color: transparent;
+  bottom: calc(18.25% - 10px);
+  height: 54px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  right: calc(39.85% - 26px);
+  text-align: left;
+  white-space: nowrap;
+  width: 66px;
+}
+.quiz-web-page-lifestyle-habits .arrow-icon-0z3zes {
+  background-color: transparent;
+  height: 29px;
+  left: calc(50.00% - 17px);
+  position: absolute;
+  top: calc(50.00% - 14px);
+  width: 34px;
+}
+.quiz-web-page-lifestyle-habits .arrow-icon-7WGuVo {
+  background-color: transparent;
+  height: 29px;
+  left: calc(50.00% - 17px);
+  position: absolute;
+  top: calc(50.00% - 14px);
+  transform: rotate(-180deg);
+  width: 34px;
+}
+.quiz-web-page-lifestyle-habits .back-C61RwL {
+  background-color: rgba(26,108,161,1.0);
+  border-radius: 11px;
+  height: 65px;
+  left: 522px;
+  position: absolute;
+  top: 159px;
+  transform: rotate(180deg);
+  width: 62px;
+}
+.quiz-web-page-lifestyle-habits .back-VMr6Om {
+  background-color: rgba(158,158,158,1.0);
+  border-radius: 11px;
+  height: 65px;
+  left: 180px;
+  position: absolute;
+  top: 159px;
+  width: 62px;
+}
+.quiz-web-page-lifestyle-habits .download-the-app-kK5LvP {
+  background-color: transparent;
+  bottom: calc(18.25% - 10px);
+  height: 54px;
+  left: calc(40.87% - 106px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 259px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-100-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  left: calc(23.58% - 2px);
+  position: absolute;
+  top: calc(48.09% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-101-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  bottom: calc(47.98% - 3px);
+  height: 6px;
+  left: 32px;
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-102-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  bottom: calc(46.25% - 3px);
+  height: 6px;
+  left: 42px;
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-103-zpBQMI {
+  background-color: var(--allports);
+  border-radius: 3.181668758392334px;
+  bottom: calc(41.22% - 3px);
+  height: 6px;
+  left: 35px;
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-104-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  left: calc(22.54% - 1px);
+  position: absolute;
+  top: calc(30.15% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-105-zpBQMI {
+  background-color: var(--tuna);
+  border-radius: 3.8287246227264404px;
+  bottom: calc(35.40% - 3px);
+  height: 8px;
+  left: calc(44.00% - 3px);
+  position: absolute;
+  width: 8px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-106-zpBQMI {
+  background-color: var(--tuna);
+  border-radius: 1.837792158126831px;
+  bottom: calc(37.47% - 1px);
+  height: 4px;
+  left: calc(44.43% - 2px);
+  position: absolute;
+  width: 4px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-107-zpBQMI {
+  background-color: rgba(255,184,184,1.0);
+  border-radius: 2.986412763595581px;
+  bottom: calc(34.99% - 2px);
+  height: 6px;
+  left: calc(43.93% - 3px);
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-108-zpBQMI {
+  background-color: var(--tuna);
+  border-radius: 2.948124647140503px/1.9143656492233276px;
+  bottom: calc(36.38% - 1px);
+  height: 4px;
+  left: calc(44.02% - 3px);
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-109-zpBQMI {
+  background-color: rgba(160,97,106,1.0);
+  border-radius: 3.3536057472229004px;
+  bottom: calc(35.21% - 2px);
+  height: 7px;
+  left: calc(28.22% - 2px);
+  position: absolute;
+  width: 7px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-110-zpBQMI {
+  background-color: var(--tuna);
+  border-radius: 0.5474442839622498px/0.7044851183891296px;
+  bottom: 23px;
+  height: 1px;
+  position: absolute;
+  right: 23.29%;
+  width: 1px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-212-C61RwL {
+  background-color: var(--link-water);
+  border-radius: 14.342536926269531px/14.342534065246582px;
+  height: 29px;
+  left: 308px;
+  position: absolute;
+  top: 500px;
+  width: 29px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-27-C61RwL {
+  background-color: var(--link-water);
+  border-radius: 14.342536926269531px/14.342534065246582px;
+  height: 29px;
+  left: 291px;
+  position: absolute;
+  top: 679px;
+  width: 29px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-80-zpBQMI {
+  background-color: var(--allports);
+  border-radius: 21.81759262084961px;
+  height: 44px;
+  left: calc(38.62% - 17px);
+  position: absolute;
+  top: 28px;
+  width: 44px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-81-zpBQMI {
+  background-color: var(--allports);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: 32px;
+  top: calc(28.58% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-82-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(22.01% - 1px);
+  top: calc(40.69% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-83-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: 53px;
+  top: calc(42.27% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-84-zpBQMI {
+  background-color: var(--allports);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(19.50% - 1px);
+  top: calc(48.40% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-85-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  bottom: calc(47.66% - 3px);
+  height: 6px;
+  position: absolute;
+  right: 19px;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-86-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  bottom: calc(45.93% - 3px);
+  height: 6px;
+  position: absolute;
+  right: 30px;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-87-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  bottom: calc(40.90% - 3px);
+  height: 6px;
+  position: absolute;
+  right: 23px;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-88-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(18.45% - 1px);
+  top: calc(30.47% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-89-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(36.69% - 2px);
+  top: calc(28.27% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-90-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(48.11% - 3px);
+  top: calc(40.38% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-91-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(43.50% - 3px);
+  top: calc(41.95% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-92-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(45.60% - 3px);
+  top: calc(48.09% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-93-zpBQMI {
+  background-color: var(--allports);
+  border-radius: 3.181668758392334px;
+  bottom: calc(47.98% - 3px);
+  height: 6px;
+  position: absolute;
+  right: calc(32.49% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-94-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  bottom: calc(46.25% - 3px);
+  height: 6px;
+  position: absolute;
+  right: calc(35.95% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-95-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  bottom: calc(41.22% - 3px);
+  height: 6px;
+  position: absolute;
+  right: calc(33.54% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-96-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  position: absolute;
+  right: calc(44.55% - 3px);
+  top: calc(30.15% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-97-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  left: 45px;
+  position: absolute;
+  top: calc(28.27% - 2px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-98-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  left: calc(26.10% - 2px);
+  position: absolute;
+  top: calc(40.38% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .ellipse-99-zpBQMI {
+  background-color: var(--gun-powder);
+  border-radius: 3.181668758392334px;
+  height: 6px;
+  left: calc(21.49% - 1px);
+  position: absolute;
+  top: calc(41.95% - 3px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .group-137-jYl3HK {
+  background-color: transparent;
+  height: 29.38%;
+  left: 14.26%;
+  position: relative;
+  top: 39.82%;
+  width: 71.40%;
+}
+.quiz-web-page-lifestyle-habits .group-142-C61RwL {
+  background-color: transparent;
+  height: 439px;
+  left: 772px;
+  position: absolute;
+  top: 361px;
+  width: 690px;
+}
+.quiz-web-page-lifestyle-habits .group-16-ukg0kx {
+  background-color: transparent;
+  background-image: url(../img/path-354-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 13px;
+}
+.quiz-web-page-lifestyle-habits .group-17-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 13px;
+}
+.quiz-web-page-lifestyle-habits .group-18-XIUO5Z {
+  background-color: transparent;
+  background-image: url(../img/path-355-10@1x.png);
+  background-size: 100% 100%;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+.quiz-web-page-lifestyle-habits .group-19-cDetE7 {
+  background-color: transparent;
+  height: 30px;
+  left: 16px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.quiz-web-page-lifestyle-habits .group-20-7x8muI {
+  background-color: transparent;
+  background-image: url(../img/path-356-1@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 15px;
+}
+.quiz-web-page-lifestyle-habits .group-21-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 33px;
+  position: absolute;
+  top: 0px;
+  width: 15px;
+}
+.quiz-web-page-lifestyle-habits .group-24-aa9dIM {
+  background-color: transparent;
+  background-image: url(../img/path-358-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-lifestyle-habits .group-25-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 58px;
+  position: absolute;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-lifestyle-habits .group-26-V3c2Rx {
+  background-color: transparent;
+  background-image: url(../img/path-359-10@1x.png);
+  background-size: 100% 100%;
+  height: 28px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 12px;
+}
+.quiz-web-page-lifestyle-habits .group-27-cDetE7 {
+  background-color: transparent;
+  height: 28px;
+  left: 78px;
+  position: absolute;
+  top: 1px;
+  width: 12px;
+}
+.quiz-web-page-lifestyle-habits .group-28-cvrpxh {
+  background-color: transparent;
+  background-image: url(../img/path-360-2@1x.png);
+  background-size: 100% 100%;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 18px;
+}
+.quiz-web-page-lifestyle-habits .group-29-cDetE7 {
+  background-color: transparent;
+  height: 30px;
+  left: 92px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.quiz-web-page-lifestyle-habits .group-30-AKBqcO {
+  background-color: transparent;
+  background-image: url(../img/path-361-1@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+.quiz-web-page-lifestyle-habits .group-31-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 111px;
+  position: absolute;
+  top: 1px;
+  width: 16px;
+}
+.quiz-web-page-lifestyle-habits .group-32-1gxCSO {
+  background-color: transparent;
+  background-image: url(../img/path-362-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-lifestyle-habits .group-33-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 130px;
+  position: absolute;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-lifestyle-habits .group-7-AS5AU1 {
+  background-color: transparent;
+  background-image: url(../img/arrow-icon-10@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.quiz-web-page-lifestyle-habits .group-7-re1yfc {
+  background-color: transparent;
+  background-image: url(../img/arrow-icon-3@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.quiz-web-page-lifestyle-habits .how-many-g-use-a-week-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 228px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 640px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-lifestyle-habits .how-much-o-ly-sourced-C61RwL {
+  background-color: transparent;
+  color: var(--curious-blue);
+  font-family: 'BrandonGrotesque-Medium', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 221px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 552px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-lifestyle-habits .kloud-logo-1-kK5LvP {
+  background-color: transparent;
+  background-image: url(../img/path-398-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 206px;
+}
+.quiz-web-page-lifestyle-habits .lifestyle-habits-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 318px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 387px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-lifestyle-habits .line-29-C61RwL {
+  background-color: transparent;
+  height: 3px;
+  left: 236px;
+  position: absolute;
+  top: 515px;
+  width: 355px;
+}
+.quiz-web-page-lifestyle-habits .line-30-C61RwL {
+  background-color: transparent;
+  height: 3px;
+  left: 235px;
+  position: absolute;
+  top: 606px;
+  width: 355px;
+}
+.quiz-web-page-lifestyle-habits .line-31-C61RwL {
+  background-color: transparent;
+  height: 3px;
+  left: 235px;
+  position: absolute;
+  top: 692px;
+  width: 355px;
+}
+.quiz-web-page-lifestyle-habits .line-32-3HnUBD {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  left: 86px;
+  position: absolute;
+  width: 72px;
+}
+.quiz-web-page-lifestyle-habits .line-35-3HnUBD {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  left: calc(26.84% - 19px);
+  position: absolute;
+  width: 72px;
+}
+.quiz-web-page-lifestyle-habits .line-36-3HnUBD {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  left: calc(39.78% - 29px);
+  position: absolute;
+  width: 72px;
+}
+.quiz-web-page-lifestyle-habits .line-37-3HnUBD {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  position: absolute;
+  right: calc(47.28% - 34px);
+  width: 72px;
+}
+.quiz-web-page-lifestyle-habits .path-1050-zpBQMI {
+  background-color: transparent;
+  bottom: calc(42.80% - 21px);
+  height: 50px;
+  left: 1px;
+  position: absolute;
+  width: 98px;
+}
+.quiz-web-page-lifestyle-habits .path-1051-zpBQMI {
+  background-color: transparent;
+  height: 115px;
+  left: calc(37.19% - 64px);
+  position: absolute;
+  top: 26px;
+  width: 173px;
+}
+.quiz-web-page-lifestyle-habits .path-1052-zpBQMI {
+  background-color: transparent;
+  height: 75px;
+  position: absolute;
+  right: 0px;
+  top: calc(49.17% - 37px);
+  width: 124px;
+}
+.quiz-web-page-lifestyle-habits .path-1053-zpBQMI {
+  background-color: transparent;
+  height: 26px;
+  left: 23px;
+  position: absolute;
+  top: calc(49.69% - 13px);
+  width: 42px;
+}
+.quiz-web-page-lifestyle-habits .path-1054-zpBQMI {
+  background-color: transparent;
+  height: 46px;
+  left: calc(45.95% - 28px);
+  position: absolute;
+  top: 26px;
+  width: 61px;
+}
+.quiz-web-page-lifestyle-habits .path-1055-zpBQMI {
+  background-color: transparent;
+  height: 38px;
+  position: absolute;
+  right: 43px;
+  top: calc(38.43% - 15px);
+  width: 41px;
+}
+.quiz-web-page-lifestyle-habits .path-1056-zpBQMI {
+  background-color: transparent;
+  bottom: calc(49.00% - 35px);
+  height: 71px;
+  position: absolute;
+  right: 39px;
+  width: 18px;
+}
+.quiz-web-page-lifestyle-habits .path-1057-zpBQMI {
+  background-color: transparent;
+  bottom: calc(49.47% - 35px);
+  height: 71px;
+  position: absolute;
+  right: calc(40.30% - 7px);
+  width: 18px;
+}
+.quiz-web-page-lifestyle-habits .path-1058-zpBQMI {
+  background-color: transparent;
+  bottom: calc(49.47% - 35px);
+  height: 71px;
+  left: calc(17.43% - 3px);
+  position: absolute;
+  width: 18px;
+}
+.quiz-web-page-lifestyle-habits .path-1059-zpBQMI {
+  background-color: transparent;
+  bottom: calc(32.24% - 2px);
+  height: 8px;
+  left: calc(43.94% - 2px);
+  position: absolute;
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1060-zpBQMI {
+  background-color: transparent;
+  bottom: calc(32.24% - 2px);
+  height: 8px;
+  left: calc(43.94% - 2px);
+  position: absolute;
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1061-zpBQMI {
+  background-color: transparent;
+  bottom: calc(37.88% - 1px);
+  height: 4px;
+  left: calc(44.12% - 1px);
+  position: absolute;
+  width: 2px;
+}
+.quiz-web-page-lifestyle-habits .path-1062-zpBQMI {
+  background-color: transparent;
+  bottom: calc(31.55% - 2px);
+  height: 7px;
+  left: calc(42.97% - 1px);
+  position: absolute;
+  width: 3px;
+}
+.quiz-web-page-lifestyle-habits .path-1063-zpBQMI {
+  background-color: transparent;
+  bottom: 24px;
+  height: 23px;
+  left: calc(41.72% - 5px);
+  position: absolute;
+  width: 11px;
+}
+.quiz-web-page-lifestyle-habits .path-1064-zpBQMI {
+  background-color: transparent;
+  bottom: 23px;
+  height: 25px;
+  left: calc(45.38% - 2px);
+  position: absolute;
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1065-zpBQMI {
+  background-color: transparent;
+  bottom: calc(22.64% - 2px);
+  height: 10px;
+  left: calc(43.99% - 6px);
+  position: absolute;
+  width: 14px;
+}
+.quiz-web-page-lifestyle-habits .path-1066-zpBQMI {
+  background-color: transparent;
+  bottom: 19px;
+  height: 8px;
+  left: calc(40.30% - 1px);
+  position: absolute;
+  width: 3px;
+}
+.quiz-web-page-lifestyle-habits .path-1067-zpBQMI {
+  background-color: transparent;
+  bottom: 19px;
+  height: 7px;
+  left: calc(45.89% - 3px);
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .path-1068-zpBQMI {
+  background-color: transparent;
+  bottom: calc(31.71% - 1px);
+  height: 3px;
+  left: calc(44.83% - 1px);
+  position: absolute;
+  width: 2px;
+}
+.quiz-web-page-lifestyle-habits .path-1069-zpBQMI {
+  background-color: transparent;
+  bottom: calc(27.08% - 5px);
+  height: 19px;
+  left: calc(43.89% - 6px);
+  position: absolute;
+  width: 13px;
+}
+.quiz-web-page-lifestyle-habits .path-1070-zpBQMI {
+  background-color: transparent;
+  bottom: calc(26.12% - 6px);
+  height: 22px;
+  left: calc(42.13% - 2px);
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .path-1071-zpBQMI {
+  background-color: transparent;
+  bottom: calc(26.48% - 5px);
+  height: 18px;
+  left: calc(17.73% - 5px);
+  position: absolute;
+  width: 27px;
+}
+.quiz-web-page-lifestyle-habits .path-1072-zpBQMI {
+  background-color: transparent;
+  bottom: calc(20.39% - 5px);
+  height: 27px;
+  left: calc(23.54% - 2px);
+  position: absolute;
+  width: 11px;
+}
+.quiz-web-page-lifestyle-habits .path-1073-zpBQMI {
+  background-color: transparent;
+  bottom: calc(34.90% - 2px);
+  height: 5px;
+  left: calc(27.12% - 1px);
+  position: absolute;
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1074-zpBQMI {
+  background-color: transparent;
+  bottom: calc(32.36% - 4px);
+  height: 14px;
+  left: calc(23.78% - 3px);
+  position: absolute;
+  width: 15px;
+}
+.quiz-web-page-lifestyle-habits .path-1075-zpBQMI {
+  background-color: transparent;
+  bottom: calc(26.20% - 5px);
+  height: 19px;
+  left: calc(24.89% - 1px);
+  position: absolute;
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1076-zpBQMI {
+  background-color: transparent;
+  bottom: calc(25.62% - 2px);
+  height: 8px;
+  left: 47px;
+  position: absolute;
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1077-zpBQMI {
+  background-color: transparent;
+  bottom: 36px;
+  height: 3px;
+  left: calc(24.33% - 2px);
+  position: absolute;
+  width: 8px;
+}
+.quiz-web-page-lifestyle-habits .path-1078-zpBQMI {
+  background-color: transparent;
+  bottom: calc(36.39% - 2px);
+  height: 5px;
+  left: calc(28.28% - 2px);
+  position: absolute;
+  width: 7px;
+}
+.quiz-web-page-lifestyle-habits .path-1079-zpBQMI {
+  background-color: transparent;
+  bottom: 35px;
+  height: 3px;
+  left: calc(22.30% - 5px);
+  position: absolute;
+  width: 24px;
+}
+.quiz-web-page-lifestyle-habits .path-1080-zpBQMI {
+  background-color: transparent;
+  bottom: calc(32.60% - 2px);
+  height: 8px;
+  left: calc(25.47% - 2px);
+  position: absolute;
+  width: 7px;
+}
+.quiz-web-page-lifestyle-habits .path-1081-zpBQMI {
+  background-color: transparent;
+  height: 9px;
+  left: calc(16.47% - 4px);
+  position: absolute;
+  top: 21px;
+  width: 27px;
+}
+.quiz-web-page-lifestyle-habits .path-1082-zpBQMI {
+  background-color: transparent;
+  height: 9px;
+  left: calc(36.69% - 10px);
+  position: absolute;
+  top: 0px;
+  width: 27px;
+}
+.quiz-web-page-lifestyle-habits .path-1083-zpBQMI {
+  background-color: transparent;
+  height: 9px;
+  position: absolute;
+  right: calc(27.72% - 7px);
+  top: calc(26.67% - 3px);
+  width: 27px;
+}
+.quiz-web-page-lifestyle-habits .path-1084-zpBQMI {
+  background-color: transparent;
+  bottom: 20px;
+  height: 5px;
+  position: absolute;
+  right: calc(28.07% - 1px);
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1085-zpBQMI {
+  background-color: transparent;
+  bottom: 20px;
+  height: 3px;
+  position: absolute;
+  right: calc(27.85% - 1px);
+  width: 3px;
+}
+.quiz-web-page-lifestyle-habits .path-1086-zpBQMI {
+  background-color: transparent;
+  bottom: 23px;
+  height: 3px;
+  position: absolute;
+  right: calc(28.71% - 1px);
+  width: 2px;
+}
+.quiz-web-page-lifestyle-habits .path-1087-zpBQMI {
+  background-color: transparent;
+  bottom: 22px;
+  height: 8px;
+  position: absolute;
+  right: calc(20.82% - 1px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .path-1088-zpBQMI {
+  background-color: transparent;
+  bottom: 12px;
+  height: 6px;
+  position: absolute;
+  right: calc(21.30% - 1px);
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1089-zpBQMI {
+  background-color: transparent;
+  bottom: 11px;
+  height: 6px;
+  position: absolute;
+  right: 51px;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .path-1090-zpBQMI {
+  background-color: transparent;
+  bottom: 12px;
+  height: 6px;
+  position: absolute;
+  right: calc(21.30% - 1px);
+  width: 5px;
+}
+.quiz-web-page-lifestyle-habits .path-1091-zpBQMI {
+  background-color: transparent;
+  bottom: 11px;
+  height: 6px;
+  position: absolute;
+  right: 51px;
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .path-1092-zpBQMI {
+  background-color: transparent;
+  bottom: 11px;
+  height: 17px;
+  position: absolute;
+  right: calc(16.74% - 4px);
+  width: 25px;
+}
+.quiz-web-page-lifestyle-habits .path-1093-zpBQMI {
+  background-color: transparent;
+  bottom: 20px;
+  height: 9px;
+  position: absolute;
+  right: calc(20.02% - 1px);
+  width: 6px;
+}
+.quiz-web-page-lifestyle-habits .path-1296-3HnUBD {
+  background-color: transparent;
+  height: calc(100.00% - 5px);
+  left: 0px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+.quiz-web-page-lifestyle-habits .path-1297-3HnUBD {
+  background-color: transparent;
+  height: 158px;
+  position: absolute;
+  right: calc(46.70% - 95px);
+  top: 1px;
+  width: 203px;
+}
+.quiz-web-page-lifestyle-habits .path-1299-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 843px;
+  position: absolute;
+  top: 158px;
+  width: 147px;
+}
+.quiz-web-page-lifestyle-habits .path-1359-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1118px;
+  position: absolute;
+  top: 197px;
+  width: 147px;
+}
+.quiz-web-page-lifestyle-habits .path-1360-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 916px;
+  position: absolute;
+  top: 327px;
+  width: 147px;
+}
+.quiz-web-page-lifestyle-habits .quiz-kK5LvP {
+  background-color: transparent;
+  bottom: calc(24.34% - 13px);
+  height: 54px;
+  left: calc(24.24% - 17px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 70px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-100-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 19px;
+  height: 1px;
+  left: calc(43.64% - 22px);
+  position: absolute;
+  width: 50px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-101-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 0px;
+  height: 1px;
+  position: absolute;
+  right: calc(36.70% - 7px);
+  width: 20px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-102-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 5px;
+  height: 1px;
+  left: calc(19.45% - 4px);
+  position: absolute;
+  width: 20px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-103-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 24.17%;
+  height: 1px;
+  position: absolute;
+  right: calc(23.81% - 21px);
+  width: 88px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-104-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 10px;
+  height: 1px;
+  position: absolute;
+  right: 46px;
+  width: 48px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-183-C61RwL {
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 685px;
+  left: 58px;
+  opacity: 0.76;
+  position: absolute;
+  top: 115px;
+  width: 709px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-87-zpBQMI {
+  background-color: var(--tuna);
+  height: 1px;
+  position: absolute;
+  right: 27px;
+  top: 39.04%;
+  transform: rotate(-79.64deg);
+  width: 23px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-88-zpBQMI {
+  background-color: var(--tuna);
+  height: 31px;
+  position: absolute;
+  right: 54px;
+  top: calc(48.18% - 15px);
+  transform: rotate(-42.94deg);
+  width: 1px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-89-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 41.38%;
+  height: 1px;
+  position: absolute;
+  right: 22px;
+  transform: rotate(-54.14deg);
+  width: 18px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-90-zpBQMI {
+  background-color: var(--tuna);
+  height: 1px;
+  position: absolute;
+  right: calc(37.19% - 9px);
+  top: 38.73%;
+  transform: rotate(-79.64deg);
+  width: 23px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-91-zpBQMI {
+  background-color: var(--tuna);
+  height: 31px;
+  position: absolute;
+  right: 43.06%;
+  top: calc(47.82% - 15px);
+  transform: rotate(-42.94deg);
+  width: 1px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-92-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 41.69%;
+  height: 1px;
+  position: absolute;
+  right: calc(34.83% - 6px);
+  transform: rotate(-54.14deg);
+  width: 18px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-93-zpBQMI {
+  background-color: var(--tuna);
+  height: 23px;
+  left: 51px;
+  position: absolute;
+  top: calc(37.38% - 9px);
+  transform: rotate(-10.36deg);
+  width: 1px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-94-zpBQMI {
+  background-color: var(--tuna);
+  height: 1px;
+  left: calc(18.31% - 6px);
+  position: absolute;
+  top: 48.14%;
+  transform: rotate(-47.06deg);
+  width: 31px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-95-zpBQMI {
+  background-color: var(--tuna);
+  bottom: calc(40.91% - 8px);
+  height: 18px;
+  left: 44px;
+  position: absolute;
+  transform: rotate(-35.86deg);
+  width: 1px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-96-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 32.43%;
+  height: 1px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+.quiz-web-page-lifestyle-habits .rectangle-97-zpBQMI {
+  background-color: var(--tuna);
+  border-radius: 2.297879934310913px;
+  bottom: 34px;
+  height: 2px;
+  left: 26.38%;
+  position: absolute;
+  transform: rotate(180deg);
+  width: 2px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-98-zpBQMI {
+  background-color: var(--tuna);
+  border-radius: 2.297879934310913px;
+  bottom: 34px;
+  height: 2px;
+  left: 21.96%;
+  position: absolute;
+  transform: rotate(180deg);
+  width: 2px;
+}
+.quiz-web-page-lifestyle-habits .rectangle-99-zpBQMI {
+  background-color: var(--tuna);
+  bottom: 32px;
+  height: 1px;
+  left: calc(20.90% - 10px);
+  position: absolute;
+  width: 50px;
+}
+.quiz-web-page-lifestyle-habits .the-kloud-quiz-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 258px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 234px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-lifestyle-habits .undrawnat-efunn9lv-3HnUBD {
+  background-color: transparent;
+  bottom: 53px;
+  height: 209px;
+  left: calc(28.92% - 90px);
+  position: absolute;
+  width: 310px;
+}
+.quiz-web-page-lifestyle-habits .web-top-nav-C61RwL {
+  background-color: transparent;
+  height: 103px;
+  left: -6px;
+  position: absolute;
+  top: -9px;
+  width: 1286px;
+}
+.quiz-web-page-lifestyle-habits .web-top-navigation-kK5LvP {
+  background-color: rgba(19,30,50,1.0);
+  height: calc(100.00% - 9px);
+  left: 6px;
+  position: absolute;
+  top: 9px;
+  width: calc(100.00% - 6px);
+}
+.quiz-web-page-lifestyle-habits .what-perce-econd-hand-C61RwL {
+  background-color: transparent;
+  color: var(--curious-blue);
+  font-family: 'BrandonGrotesque-Medium', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 220px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 448px;
+  white-space: nowrap;
+  width: auto;
+}
+:root {
+  --allports: rgba(15,117,169,1.0);
+  --black: rgba(0,0,0,1.0);
+  --bon-jour: rgba(224,224,224,1.0);
+  --curious-blue: rgba(42,144,196,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --gun-powder: rgba(63,61,86,1.0);
+  --link-water: rgba(213,232,237,1.0);
+  --scarpa-flow: rgba(83,84,97,1.0);
+  --tuna: rgba(47,46,65,1.0);
+  --white: rgba(255,255,255,1.0);
+}

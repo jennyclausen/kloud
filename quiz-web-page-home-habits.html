@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/quiz-web-page-home-habits.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Rubik:400");
+
+      @font-face {
+        font-family: "BrandonGrotesque-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5ac3d53247b0c1000dd0614c/HVD Fonts - BrandonGrotesque-Medium.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "BrandonGrotesque-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b3c7db95d6b6a00096731e2/.10296.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "BrandonGrotesque-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/59fbfb04395dfa000bea0d9a/.10294.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SFProText-Semibold";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5af2b9571afd72000d7270b4/SF-Pro-Text-Semibold.otf")
+          format("opentype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(213, 232, 237, 1)">
+    <input type="hidden" id="anPageName" name="page" value="quiz-web-page-home-habits" />
+    <div class="container-center-horizontal">
+      <div class="quiz-web-page-home-habits screen">
+        <div class="rectangle-183-C61RwL border-1px-dove-gray"></div>
+        <div class="the-kloud-quiz-C61RwL brandongrotesque-bold-curious-blue-48px">The Kloud Quiz</div>
+        <div class="home-habits-C61RwL brandongrotesque-bold-curious-blue-28px">Home Habits</div>
+        <a href="quiz-web-page-lifestyle-habits.html">
+          <div class="back-C61RwL"><img class="arrow-icon-7WGuVo" src="img/arrow-icon-3@1x.png" /></div
+        ></a>
+        <a href="web-landing-page.html#quiz-web-page-driving-page">
+          <div class="back-VMr6Om"><img class="arrow-icon-0z3zes" src="img/arrow-icon-10@1x.png" /></div
+        ></a>
+        <div class="what-is-yo-re-footage-C61RwL brandongrotesque-medium-curious-blue-22px">
+          What is your homes square footage?
+        </div>
+        <div class="what-year--home-built-C61RwL brandongrotesque-medium-curious-blue-22px">
+          What year was your home built?
+        </div>
+        <div class="do-you-use-thermostat-C61RwL brandongrotesque-medium-curious-blue-22px">
+          Do you use a smart thermostat?
+        </div>
+        <img class="line-30-C61RwL" src="img/line-29-2@1x.png" />
+        <img class="line-31-C61RwL" src="img/line-29-2@1x.png" />
+        <div class="ellipse-27-C61RwL"></div>
+        <div class="ellipse-211-C61RwL"></div>
+        <div class="ellipse-212-C61RwL"></div>
+        <img class="line-29-C61RwL" src="img/line-29-2@1x.png" />
+        <div class="group-143-C61RwL">
+          <img class="path-1296-FNBPh4" src="img/path-1296-1@1x.png" />
+          <img class="path-1297-FNBPh4" src="img/path-1297-1@1x.png" />
+          <img class="line-32-FNBPh4" src="img/line-32-1@1x.png" />
+          <img class="line-35-FNBPh4" src="img/line-32-1@1x.png" />
+          <img class="line-36-FNBPh4" src="img/line-35-2@1x.png" />
+          <img class="line-37-FNBPh4" src="img/line-35-2@1x.png" />
+          <div class="undraw-or-yday3gk3-FNBPh4">
+            <div class="group-65-TWywfz">
+              <img class="path-571-fgLlrx" src="img/path-571@1x.png" />
+              <img class="path-572-fgLlrx" src="img/path-572@1x.png" />
+              <img class="path-573-fgLlrx" src="img/path-573@1x.png" />
+              <img class="path-574-fgLlrx" src="img/path-574@1x.png" />
+              <img class="path-575-fgLlrx" src="img/path-575@1x.png" />
+              <img class="path-576-fgLlrx" src="img/path-576@1x.png" />
+            </div>
+            <div class="group-66-TWywfz">
+              <img class="path-577-DwbuyQ" src="img/path-577@1x.png" />
+              <img class="path-578-DwbuyQ" src="img/path-578@1x.png" />
+              <img class="path-579-DwbuyQ" src="img/path-579@1x.png" />
+              <img class="path-580-DwbuyQ" src="img/path-580@1x.png" />
+              <img class="path-581-DwbuyQ" src="img/path-581@1x.png" />
+              <img class="path-582-DwbuyQ" src="img/path-582@1x.png" />
+            </div>
+            <div class="rectangle-19-TWywfz"></div>
+            <div class="rectangle-20-TWywfz"></div>
+            <div class="rectangle-21-TWywfz"></div>
+            <div class="rectangle-22-TWywfz"></div>
+            <div class="rectangle-23-TWywfz"></div>
+            <div class="rectangle-24-TWywfz"></div>
+            <div class="rectangle-25-TWywfz"></div>
+            <div class="rectangle-26-TWywfz"></div>
+            <div class="rectangle-27-TWywfz"></div>
+            <div class="rectangle-28-TWywfz"></div>
+            <div class="rectangle-29-TWywfz"></div>
+            <div class="rectangle-30-TWywfz"></div>
+            <div class="rectangle-31-TWywfz"></div>
+            <img class="path-583-TWywfz" src="img/path-583@1x.png" />
+            <img class="path-584-TWywfz" src="img/path-584@1x.png" />
+            <div class="rectangle-32-TWywfz"></div>
+            <div class="ellipse-18-TWywfz"></div>
+            <div class="rectangle-33-TWywfz"></div>
+            <div class="rectangle-34-TWywfz"></div>
+            <div class="rectangle-35-TWywfz"></div>
+            <div class="rectangle-36-TWywfz"></div>
+            <div class="rectangle-37-TWywfz"></div>
+            <div class="rectangle-38-TWywfz"></div>
+            <img class="path-585-TWywfz" src="img/path-585@1x.png" />
+            <img class="path-586-TWywfz" src="img/path-586@1x.png" />
+            <img class="path-587-TWywfz" src="img/path-584@1x.png" />
+            <img class="path-588-TWywfz" src="img/path-588@1x.png" />
+            <img class="path-589-TWywfz" src="img/path-589@1x.png" />
+            <div class="rectangle-39-TWywfz"></div>
+            <div class="rectangle-40-TWywfz"></div>
+            <div class="rectangle-41-TWywfz"></div>
+            <img class="path-590-TWywfz" src="img/path-590@1x.png" />
+            <img class="path-591-TWywfz" src="img/path-591@1x.png" />
+            <img class="line-3-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-4-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-5-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-6-TWywfz" src="img/line-10@1x.png" />
+            <div class="rectangle-42-TWywfz"></div>
+            <div class="rectangle-43-TWywfz"></div>
+            <div class="rectangle-44-TWywfz"></div>
+            <img class="path-592-TWywfz" src="img/path-592@1x.png" />
+            <img class="path-593-TWywfz" src="img/path-593@1x.png" />
+            <img class="line-7-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-8-TWywfz" src="img/line-11@1x.png" />
+            <img class="line-9-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-10-TWywfz" src="img/line-10@1x.png" />
+            <div class="rectangle-45-TWywfz"></div>
+            <div class="rectangle-46-TWywfz"></div>
+            <div class="rectangle-47-TWywfz"></div>
+            <img class="path-594-TWywfz" src="img/path-592@1x.png" />
+            <img class="path-595-TWywfz" src="img/path-593@1x.png" />
+            <img class="line-11-TWywfz" src="img/line-11@1x.png" />
+            <img class="line-12-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-13-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-14-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-15-TWywfz" src="img/line-10@1x.png" />
+            <div class="rectangle-48-TWywfz"></div>
+            <div class="rectangle-49-TWywfz"></div>
+            <img class="path-596-TWywfz" src="img/path-596@1x.png" />
+            <div class="rectangle-50-TWywfz"></div>
+            <div class="ellipse-19-TWywfz"></div>
+            <div class="rectangle-51-TWywfz"></div>
+            <div class="rectangle-52-TWywfz"></div>
+            <div class="rectangle-53-TWywfz"></div>
+            <div class="rectangle-54-TWywfz"></div>
+            <div class="rectangle-55-TWywfz"></div>
+            <div class="rectangle-56-TWywfz"></div>
+            <img class="path-597-TWywfz" src="img/path-585@1x.png" />
+            <img class="path-598-TWywfz" src="img/path-586@1x.png" />
+            <img class="path-599-TWywfz" src="img/path-584@1x.png" />
+            <img class="path-600-TWywfz" src="img/path-600@1x.png" />
+            <img class="path-601-TWywfz" src="img/path-601@1x.png" />
+            <div class="rectangle-57-TWywfz"></div>
+            <div class="rectangle-58-TWywfz"></div>
+            <div class="rectangle-59-TWywfz"></div>
+            <img class="path-602-TWywfz" src="img/path-590@1x.png" />
+            <img class="path-603-TWywfz" src="img/path-591@1x.png" />
+            <img class="line-16-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-17-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-18-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-19-TWywfz" src="img/line-10@1x.png" />
+            <div class="rectangle-60-TWywfz"></div>
+            <div class="rectangle-61-TWywfz"></div>
+            <div class="rectangle-62-TWywfz"></div>
+            <img class="path-604-TWywfz" src="img/path-592@1x.png" />
+            <img class="path-605-TWywfz" src="img/path-593@1x.png" />
+            <img class="line-20-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-21-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-22-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-23-TWywfz" src="img/line-10@1x.png" />
+            <div class="rectangle-63-TWywfz"></div>
+            <div class="rectangle-64-TWywfz"></div>
+            <div class="rectangle-65-TWywfz"></div>
+            <img class="path-606-TWywfz" src="img/path-592@1x.png" />
+            <img class="path-607-TWywfz" src="img/path-593@1x.png" />
+            <img class="line-24-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-25-TWywfz" src="img/line-12@1x.png" />
+            <img class="line-26-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-27-TWywfz" src="img/line-10@1x.png" />
+            <img class="line-28-TWywfz" src="img/line-10@1x.png" />
+            <img class="path-608-TWywfz" src="img/path-608@1x.png" />
+            <img class="path-609-TWywfz" src="img/path-609@1x.png" />
+            <img class="path-610-TWywfz" src="img/path-610@1x.png" />
+            <img class="path-611-TWywfz" src="img/path-611@1x.png" />
+            <img class="path-612-TWywfz" src="img/path-612@1x.png" />
+            <img class="path-613-TWywfz" src="img/path-613@1x.png" />
+            <img class="path-614-TWywfz" src="img/path-614@1x.png" />
+            <img class="path-615-TWywfz" src="img/path-615@1x.png" />
+            <img class="path-616-TWywfz" src="img/path-616@1x.png" />
+            <img class="path-617-TWywfz" src="img/path-611@1x.png" />
+            <img class="path-618-TWywfz" src="img/path-612@1x.png" />
+            <img class="path-619-TWywfz" src="img/path-613@1x.png" />
+            <div class="group-67-TWywfz"></div>
+            <div class="rectangle-66-TWywfz"></div>
+            <div class="rectangle-67-TWywfz"></div>
+            <div class="rectangle-68-TWywfz"></div>
+            <div class="group-68-TWywfz"></div>
+            <img class="path-621-TWywfz" src="img/path-621@1x.png" />
+            <img class="path-622-TWywfz" src="img/path-622@1x.png" />
+            <img class="path-623-TWywfz" src="img/path-623@1x.png" />
+            <img class="path-624-TWywfz" src="img/path-624@1x.png" />
+            <img class="path-625-TWywfz" src="img/path-625@1x.png" />
+            <img class="path-626-TWywfz" src="img/path-626@1x.png" />
+            <div class="ellipse-20-TWywfz"></div>
+            <div class="ellipse-21-TWywfz"></div>
+            <img class="path-627-TWywfz" src="img/path-627@1x.png" />
+            <img class="path-628-TWywfz" src="img/path-628@1x.png" />
+            <img class="path-629-TWywfz" src="img/path-629@1x.png" />
+            <div class="ellipse-22-TWywfz"></div>
+            <div class="ellipse-23-TWywfz"></div>
+            <img class="path-630-TWywfz" src="img/path-630@1x.png" />
+            <img class="path-631-TWywfz" src="img/path-631@1x.png" />
+            <div class="ellipse-24-TWywfz"></div>
+            <div class="ellipse-25-TWywfz"></div>
+            <img class="path-632-TWywfz" src="img/path-632@1x.png" />
+            <img class="path-633-TWywfz" src="img/path-632@1x.png" />
+            <img class="path-634-TWywfz" src="img/path-634@1x.png" />
+            <img class="path-635-TWywfz" src="img/path-634@1x.png" />
+            <div class="ellipse-26-TWywfz"></div>
+            <img class="path-636-TWywfz" src="img/path-636@1x.png" />
+            <img class="path-637-TWywfz" src="img/path-637@1x.png" />
+            <img class="path-638-TWywfz" src="img/path-636@1x.png" />
+            <div class="rectangle-70-TWywfz"></div>
+            <div class="group-69-TWywfz">
+              <div class="rectangle-71-4Qvtix"></div>
+              <div class="rectangle-72-4Qvtix"></div>
+              <div class="rectangle-73-4Qvtix"></div>
+            </div>
+            <div class="group-70-TWywfz">
+              <div class="rectangle-74-mZ8U4t"></div>
+              <div class="rectangle-75-mZ8U4t"></div>
+              <div class="rectangle-76-mZ8U4t"></div>
+            </div>
+            <div class="group-71-TWywfz">
+              <img class="path-639-Sm0rai" src="img/path-639@1x.png" />
+              <img class="path-640-Sm0rai" src="img/path-640@1x.png" />
+            </div>
+            <div class="group-72-TWywfz">
+              <img class="path-641-nVLj4y" src="img/path-641@1x.png" />
+              <img class="path-642-nVLj4y" src="img/path-642@1x.png" />
+            </div>
+            <div class="group-73-TWywfz">
+              <img class="path-643-l6xte7" src="img/path-643@1x.png" />
+              <img class="path-644-l6xte7" src="img/path-644@1x.png" />
+            </div>
+            <img class="path-645-TWywfz" src="img/path-645@1x.png" />
+            <img class="path-646-TWywfz" src="img/path-646@1x.png" />
+            <img class="path-647-TWywfz" src="img/path-647@1x.png" />
+            <img class="path-648-TWywfz" src="img/path-648@1x.png" />
+            <img class="path-649-TWywfz" src="img/path-649@1x.png" />
+            <img class="path-650-TWywfz" src="img/path-650@1x.png" />
+            <img class="path-651-TWywfz" src="img/path-651@1x.png" />
+            <div class="ellipse-28-TWywfz"></div>
+            <img class="path-652-TWywfz" src="img/path-652@1x.png" />
+            <img class="path-653-TWywfz" src="img/path-653@1x.png" />
+            <img class="path-654-TWywfz" src="img/path-654@1x.png" />
+            <img class="path-655-TWywfz" src="img/path-655@1x.png" />
+            <img class="path-656-TWywfz" src="img/path-656@1x.png" />
+            <img class="path-657-TWywfz" src="img/path-657@1x.png" />
+            <img class="path-658-TWywfz" src="img/path-658@1x.png" />
+            <div class="ellipse-29-TWywfz"></div>
+            <img class="path-659-TWywfz" src="img/path-659@1x.png" />
+            <img class="path-660-TWywfz" src="img/path-660@1x.png" />
+            <img class="path-661-TWywfz" src="img/path-661@1x.png" />
+            <img class="path-662-TWywfz" src="img/path-662@1x.png" />
+            <img class="path-663-TWywfz" src="img/path-663@1x.png" />
+            <img class="path-664-TWywfz" src="img/path-664@1x.png" />
+            <img class="path-665-TWywfz" src="img/path-665@1x.png" />
+            <div class="ellipse-30-TWywfz"></div>
+            <img class="path-666-TWywfz" src="img/path-666@1x.png" />
+            <div class="ellipse-31-TWywfz"></div>
+            <div class="ellipse-32-TWywfz"></div>
+            <div class="ellipse-33-TWywfz"></div>
+          </div>
+        </div>
+        <img class="path-1299-C61RwL" src="img/path-1299-1@1x.png" />
+        <img class="path-1359-C61RwL" src="img/path-1299-1@1x.png" />
+        <img class="path-1368-C61RwL" src="img/path-1299-1@1x.png" />
+        <img class="path-1360-C61RwL" src="img/path-1299-1@1x.png" />
+        <div class="web-top-nav-C61RwL">
+          <div class="web-top-navigation-kK5LvP border-1px-dove-gray"></div>
+          <a href="web-landing-page.html#quiz-web-page-driving-page"
+            ><div class="quiz-kK5LvP brandongrotesque-bold-white-36px">Quiz</div></a
+          >
+          <a href="web-landing-page.html#web-landing-page"
+            ><div class="aqi-kK5LvP brandongrotesque-bold-white-36px">AQI</div></a
+          >
+          <a href="cta-page-download-app.html"
+            ><div class="download-the-app-kK5LvP brandongrotesque-bold-white-36px">Download the app</div></a
+          >
+          <a href="web-landing-page.html#web-landing-page">
+            <div class="kloud-logo-1-kK5LvP">
+              <div class="group-137-jYl3HK">
+                <div class="group-17-cDetE7">
+                  <div class="group-16-ukg0kx"></div>
+                </div>
+                <div class="group-19-cDetE7">
+                  <div class="group-18-XIUO5Z"></div>
+                </div>
+                <div class="group-21-cDetE7">
+                  <div class="group-20-7x8muI"></div>
+                </div>
+                <div class="group-25-cDetE7">
+                  <div class="group-24-aa9dIM"></div>
+                </div>
+                <div class="group-27-cDetE7">
+                  <div class="group-26-V3c2Rx"></div>
+                </div>
+                <div class="group-29-cDetE7">
+                  <div class="group-28-cvrpxh"></div>
+                </div>
+                <div class="group-31-cDetE7">
+                  <div class="group-30-AKBqcO"></div>
+                </div>
+                <div class="group-33-cDetE7">
+                  <div class="group-32-1gxCSO"></div>
+                </div>
+              </div></div
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/quiz-web-page-lifestyle-habits.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Rubik:400");
+
+      @font-face {
+        font-family: "BrandonGrotesque-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5ac3d53247b0c1000dd0614c/HVD Fonts - BrandonGrotesque-Medium.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "BrandonGrotesque-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b3c7db95d6b6a00096731e2/.10296.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "BrandonGrotesque-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/59fbfb04395dfa000bea0d9a/.10294.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SFProText-Semibold";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5af2b9571afd72000d7270b4/SF-Pro-Text-Semibold.otf")
+          format("opentype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(213, 232, 237, 1)">
+    <input type="hidden" id="anPageName" name="page" value="quiz-web-page-lifestyle-habits" />
+    <div class="container-center-horizontal">
+      <div class="quiz-web-page-lifestyle-habits screen">
+        <div class="rectangle-183-C61RwL border-1px-dove-gray"></div>
+        <div class="the-kloud-quiz-C61RwL brandongrotesque-bold-curious-blue-48px">The Kloud Quiz</div>
+        <div class="lifestyle-habits-C61RwL brandongrotesque-bold-curious-blue-28px">Lifestyle Habits</div>
+        <a href="quiz-web-page-travel-habits.html">
+          <div class="back-C61RwL"><img class="arrow-icon-7WGuVo" src="img/arrow-icon-3@1x.png" /></div
+        ></a>
+        <a href="quiz-web-page-home-habits.html">
+          <div class="back-VMr6Om"><img class="arrow-icon-0z3zes" src="img/arrow-icon-10@1x.png" /></div
+        ></a>
+        <div class="what-perce-econd-hand-C61RwL">What percentage of your goods are second-hand?</div>
+        <div class="how-much-o-ly-sourced-C61RwL">
+          How much of your food/diet would be considered<br />‘locally sourced’?
+        </div>
+        <div class="how-many-g-use-a-week-C61RwL brandongrotesque-medium-curious-blue-22px">
+          How many garbage bags do you use a week?
+        </div>
+        <img class="line-29-C61RwL" src="img/line-29-2@1x.png" />
+        <img class="line-30-C61RwL" src="img/line-29-2@1x.png" />
+        <img class="line-31-C61RwL" src="img/line-29-2@1x.png" />
+        <div class="ellipse-27-C61RwL"></div>
+        <div class="ellipse-212-C61RwL"></div>
+        <div class="group-142-C61RwL">
+          <img class="path-1296-3HnUBD" src="img/path-1296-1@1x.png" />
+          <img class="path-1297-3HnUBD" src="img/path-1297-1@1x.png" />
+          <img class="line-32-3HnUBD" src="img/line-32-3@1x.png" />
+          <img class="line-35-3HnUBD" src="img/line-32-3@1x.png" />
+          <img class="line-36-3HnUBD" src="img/line-32-3@1x.png" />
+          <img class="line-37-3HnUBD" src="img/line-35-2@1x.png" />
+          <div class="undrawnat-efunn9lv-3HnUBD">
+            <div class="ellipse-80-zpBQMI"></div>
+            <img class="path-1050-zpBQMI" src="img/path-1050@1x.png" />
+            <img class="path-1051-zpBQMI" src="img/path-1051@1x.png" />
+            <img class="path-1052-zpBQMI" src="img/path-1052@1x.png" />
+            <img class="path-1053-zpBQMI" src="img/path-1053@1x.png" />
+            <img class="path-1054-zpBQMI" src="img/path-1054@1x.png" />
+            <img class="path-1055-zpBQMI" src="img/path-1055@1x.png" />
+            <img class="path-1056-zpBQMI" src="img/path-1056@1x.png" />
+            <div class="rectangle-87-zpBQMI"></div>
+            <div class="rectangle-88-zpBQMI"></div>
+            <div class="rectangle-89-zpBQMI"></div>
+            <div class="ellipse-81-zpBQMI"></div>
+            <div class="ellipse-82-zpBQMI"></div>
+            <div class="ellipse-83-zpBQMI"></div>
+            <div class="ellipse-84-zpBQMI"></div>
+            <div class="ellipse-85-zpBQMI"></div>
+            <div class="ellipse-86-zpBQMI"></div>
+            <div class="ellipse-87-zpBQMI"></div>
+            <div class="ellipse-88-zpBQMI"></div>
+            <img class="path-1057-zpBQMI" src="img/path-1056@1x.png" />
+            <div class="rectangle-90-zpBQMI"></div>
+            <div class="rectangle-91-zpBQMI"></div>
+            <div class="rectangle-92-zpBQMI"></div>
+            <div class="ellipse-89-zpBQMI"></div>
+            <div class="ellipse-90-zpBQMI"></div>
+            <div class="ellipse-91-zpBQMI"></div>
+            <div class="ellipse-92-zpBQMI"></div>
+            <div class="ellipse-93-zpBQMI"></div>
+            <div class="ellipse-94-zpBQMI"></div>
+            <div class="ellipse-95-zpBQMI"></div>
+            <div class="ellipse-96-zpBQMI"></div>
+            <img class="path-1058-zpBQMI" src="img/path-1058@1x.png" />
+            <div class="rectangle-93-zpBQMI"></div>
+            <div class="rectangle-94-zpBQMI"></div>
+            <div class="rectangle-95-zpBQMI"></div>
+            <div class="ellipse-97-zpBQMI"></div>
+            <div class="ellipse-98-zpBQMI"></div>
+            <div class="ellipse-99-zpBQMI"></div>
+            <div class="ellipse-100-zpBQMI"></div>
+            <div class="ellipse-101-zpBQMI"></div>
+            <div class="ellipse-102-zpBQMI"></div>
+            <div class="ellipse-103-zpBQMI"></div>
+            <div class="ellipse-104-zpBQMI"></div>
+            <div class="rectangle-96-zpBQMI"></div>
+            <div class="ellipse-105-zpBQMI"></div>
+            <img class="path-1059-zpBQMI" src="img/path-1059@1x.png" />
+            <img class="path-1060-zpBQMI" src="img/path-1060@1x.png" />
+            <div class="ellipse-106-zpBQMI"></div>
+            <img class="path-1061-zpBQMI" src="img/path-1061@1x.png" />
+            <img class="path-1062-zpBQMI" src="img/path-1062@1x.png" />
+            <img class="path-1063-zpBQMI" src="img/path-1063@1x.png" />
+            <img class="path-1064-zpBQMI" src="img/path-1064@1x.png" />
+            <img class="path-1065-zpBQMI" src="img/path-1065@1x.png" />
+            <img class="path-1066-zpBQMI" src="img/path-1066@1x.png" />
+            <img class="path-1067-zpBQMI" src="img/path-1067@1x.png" />
+            <div class="ellipse-107-zpBQMI"></div>
+            <img class="path-1068-zpBQMI" src="img/path-1068@1x.png" />
+            <img class="path-1069-zpBQMI" src="img/path-1069@1x.png" />
+            <img class="path-1070-zpBQMI" src="img/path-1070@1x.png" />
+            <div class="ellipse-108-zpBQMI"></div>
+            <img class="path-1071-zpBQMI" src="img/path-1071@1x.png" />
+            <img class="path-1072-zpBQMI" src="img/path-1072@1x.png" />
+            <div class="ellipse-109-zpBQMI"></div>
+            <img class="path-1073-zpBQMI" src="img/path-1073@1x.png" />
+            <img class="path-1074-zpBQMI" src="img/path-1074@1x.png" />
+            <img class="path-1075-zpBQMI" src="img/path-1075@1x.png" />
+            <img class="path-1076-zpBQMI" src="img/path-1076@1x.png" />
+            <img class="path-1077-zpBQMI" src="img/path-1077@1x.png" />
+            <img class="path-1078-zpBQMI" src="img/path-1078@1x.png" />
+            <img class="path-1079-zpBQMI" src="img/path-1079@1x.png" />
+            <div class="rectangle-97-zpBQMI"></div>
+            <div class="rectangle-98-zpBQMI"></div>
+            <img class="path-1080-zpBQMI" src="img/path-1080@1x.png" />
+            <div class="rectangle-99-zpBQMI"></div>
+            <div class="rectangle-100-zpBQMI"></div>
+            <div class="rectangle-101-zpBQMI"></div>
+            <div class="rectangle-102-zpBQMI"></div>
+            <div class="rectangle-103-zpBQMI"></div>
+            <img class="path-1081-zpBQMI" src="img/path-1081@1x.png" />
+            <img class="path-1082-zpBQMI" src="img/path-1081@1x.png" />
+            <img class="path-1083-zpBQMI" src="img/path-1081@1x.png" />
+            <div class="rectangle-104-zpBQMI"></div>
+            <img class="path-1084-zpBQMI" src="img/path-1084@1x.png" />
+            <img class="path-1085-zpBQMI" src="img/path-1085@1x.png" />
+            <img class="path-1086-zpBQMI" src="img/path-1086@1x.png" />
+            <img class="path-1087-zpBQMI" src="img/path-1087@1x.png" />
+            <img class="path-1088-zpBQMI" src="img/path-1088@1x.png" />
+            <img class="path-1089-zpBQMI" src="img/path-1089@1x.png" />
+            <img class="path-1090-zpBQMI" src="img/path-1090@1x.png" />
+            <img class="path-1091-zpBQMI" src="img/path-1091@1x.png" />
+            <img class="path-1092-zpBQMI" src="img/path-1092@1x.png" />
+            <div class="ellipse-110-zpBQMI"></div>
+            <img class="path-1093-zpBQMI" src="img/path-1093@1x.png" />
+          </div>
+        </div>
+        <img class="path-1299-C61RwL" src="img/path-1299-1@1x.png" />
+        <img class="path-1359-C61RwL" src="img/path-1299-1@1x.png" />
+        <img class="path-1360-C61RwL" src="img/path-1299-1@1x.png" />
+        <div class="web-top-nav-C61RwL">
+          <div class="web-top-navigation-kK5LvP border-1px-dove-gray"></div>
+          <a href="web-landing-page.html#quiz-web-page-driving-page"
+            ><div class="quiz-kK5LvP brandongrotesque-bold-white-36px">Quiz</div></a
+          >
+          <a href="web-landing-page.html#web-landing-page"
+            ><div class="aqi-kK5LvP brandongrotesque-bold-white-36px">AQI</div></a
+          >
+          <a href="cta-page-download-app.html"
+            ><div class="download-the-app-kK5LvP brandongrotesque-bold-white-36px">Download the app</div></a
+          >
+          <a href="web-landing-page.html#web-landing-page">
+            <div class="kloud-logo-1-kK5LvP">
+              <div class="group-137-jYl3HK">
+                <div class="group-17-cDetE7">
+                  <div class="group-16-ukg0kx"></div>
+                </div>
+                <div class="group-19-cDetE7">
+                  <div class="group-18-XIUO5Z"></div>
+                </div>
+                <div class="group-21-cDetE7">
+                  <div class="group-20-7x8muI"></div>
+                </div>
+                <div class="group-25-cDetE7">
+                  <div class="group-24-aa9dIM"></div>
+                </div>
+                <div class="group-27-cDetE7">
+                  <div class="group-26-V3c2Rx"></div>
+                </div>
+                <div class="group-29-cDetE7">
+                  <div class="group-28-cvrpxh"></div>
+                </div>
+                <div class="group-31-cDetE7">
+                  <div class="group-30-AKBqcO"></div>
+                </div>
+                <div class="group-33-cDetE7">
+                  <div class="group-32-1gxCSO"></div>
+                </div>
+              </div></div
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

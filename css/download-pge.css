@@ -1,0 +1,432 @@
+/* screen - download-pge */
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+.brandongrotesque-bold-curious-blue-28px {
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-bold-curious-blue-48px {
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-bold-white-36px {
+  color: var(--white);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-medium-curious-blue-22px {
+  color: var(--curious-blue);
+  font-family: 'BrandonGrotesque-Medium', Helvetica, Arial, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+.download-pge {
+  background-color: var(--link-water);
+  height: 800px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1280px;
+}
+.download-pge .apple-store-C61RwL {
+  background-color: transparent;
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 293px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 279px;
+  white-space: nowrap;
+  width: auto;
+}
+.download-pge .aqi-kK5LvP {
+  background-color: transparent;
+  bottom: calc(18.25% - 10px);
+  height: 54px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  right: calc(39.85% - 26px);
+  text-align: left;
+  white-space: nowrap;
+  width: 66px;
+}
+.download-pge .download-the-app-kK5LvP {
+  background-color: transparent;
+  bottom: calc(18.25% - 10px);
+  height: 54px;
+  left: calc(40.87% - 106px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 259px;
+}
+.download-pge .google-store-C61RwL {
+  background-color: transparent;
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 697px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 279px;
+  white-space: nowrap;
+  width: auto;
+}
+.download-pge .group-137-jYl3HK {
+  background-color: transparent;
+  height: 29.38%;
+  left: 14.26%;
+  position: relative;
+  top: 39.82%;
+  width: 71.40%;
+}
+.download-pge .group-16-ukg0kx {
+  background-color: transparent;
+  background-image: url(../img/path-354-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 13px;
+}
+.download-pge .group-17-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 13px;
+}
+.download-pge .group-18-XIUO5Z {
+  background-color: transparent;
+  background-image: url(../img/path-355-1@1x.png);
+  background-size: 100% 100%;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+.download-pge .group-19-cDetE7 {
+  background-color: transparent;
+  height: 30px;
+  left: 16px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.download-pge .group-20-7x8muI {
+  background-color: transparent;
+  background-image: url(../img/path-356-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 15px;
+}
+.download-pge .group-21-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 33px;
+  position: absolute;
+  top: 0px;
+  width: 15px;
+}
+.download-pge .group-24-aa9dIM {
+  background-color: transparent;
+  background-image: url(../img/path-358-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 17px;
+}
+.download-pge .group-25-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 58px;
+  position: absolute;
+  top: 0px;
+  width: 17px;
+}
+.download-pge .group-26-V3c2Rx {
+  background-color: transparent;
+  background-image: url(../img/path-359-10@1x.png);
+  background-size: 100% 100%;
+  height: 28px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 12px;
+}
+.download-pge .group-27-cDetE7 {
+  background-color: transparent;
+  height: 28px;
+  left: 78px;
+  position: absolute;
+  top: 1px;
+  width: 12px;
+}
+.download-pge .group-28-cvrpxh {
+  background-color: transparent;
+  background-image: url(../img/path-360-8@1x.png);
+  background-size: 100% 100%;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 18px;
+}
+.download-pge .group-29-cDetE7 {
+  background-color: transparent;
+  height: 30px;
+  left: 92px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.download-pge .group-30-AKBqcO {
+  background-color: transparent;
+  background-image: url(../img/path-361-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+.download-pge .group-31-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 111px;
+  position: absolute;
+  top: 1px;
+  width: 16px;
+}
+.download-pge .group-32-1gxCSO {
+  background-color: transparent;
+  background-image: url(../img/path-362-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 17px;
+}
+.download-pge .group-33-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 130px;
+  position: absolute;
+  top: 0px;
+  width: 17px;
+}
+.download-pge .kloud-logo-1-kK5LvP {
+  background-color: transparent;
+  background-image: url(../img/path-398-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 206px;
+}
+.download-pge .path-1285-C61RwL {
+  background-color: transparent;
+  height: 21px;
+  left: 618px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 202px;
+  width: 43px;
+}
+.download-pge .path-1298-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 857px;
+  position: absolute;
+  top: 157px;
+  width: 147px;
+}
+.download-pge .path-1299-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 931px;
+  position: absolute;
+  top: 289px;
+  width: 147px;
+}
+.download-pge .path-1396-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 122px;
+  position: absolute;
+  top: 220px;
+  width: 147px;
+}
+.download-pge .path-1397-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 83px;
+  position: absolute;
+  top: 400px;
+  width: 147px;
+}
+.download-pge .path-1398-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 969px;
+  position: absolute;
+  top: 511px;
+  width: 147px;
+}
+.download-pge .path-1399-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 822px;
+  position: absolute;
+  top: 674px;
+  width: 147px;
+}
+.download-pge .path-1400-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 428px;
+  position: absolute;
+  top: 662px;
+  width: 147px;
+}
+.download-pge .path-1401-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 368px;
+  position: absolute;
+  top: 645px;
+  width: 147px;
+}
+.download-pge .path-1402-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1077px;
+  position: absolute;
+  top: 487px;
+  width: 147px;
+}
+.download-pge .path-1403-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 268px;
+  position: absolute;
+  top: 155px;
+  width: 147px;
+}
+.download-pge .quiz-kK5LvP {
+  background-color: transparent;
+  bottom: calc(24.34% - 13px);
+  height: 54px;
+  left: calc(24.24% - 17px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 70px;
+}
+.download-pge .rectangle-181-FR29Ix {
+  background-color: transparent;
+  bottom: calc(24.38% - 8px);
+  height: 31px;
+  left: calc(43.87% - 15px);
+  position: absolute;
+  width: 35px;
+}
+.download-pge .rectangle-182-FR29Ix {
+  background-color: transparent;
+  bottom: calc(24.38% - 8px);
+  height: 31px;
+  position: absolute;
+  right: calc(30.32% - 9px);
+  width: 31px;
+}
+.download-pge .rectangle-207-C61RwL {
+  background-color: transparent;
+  height: 91px;
+  left: 326px;
+  position: absolute;
+  top: 337px;
+  width: 89px;
+}
+.download-pge .rectangle-208-C61RwL {
+  background-color: transparent;
+  height: 91px;
+  left: 751px;
+  position: absolute;
+  top: 337px;
+  width: 74px;
+}
+.download-pge .social-med--tag-cloud-C61RwL {
+  background-color: transparent;
+  background-image: url(../img/path-1399-4@1x.png);
+  background-size: 100% 100%;
+  height: 90px;
+  left: 515px;
+  position: absolute;
+  top: 708px;
+  width: 226px;
+}
+.download-pge .web-top-nav-C61RwL {
+  background-color: transparent;
+  height: 103px;
+  left: -6px;
+  position: absolute;
+  top: -9px;
+  width: 1286px;
+}
+.download-pge .web-top-navigation-kK5LvP {
+  background-color: rgba(19,30,50,1.0);
+  height: calc(100.00% - 9px);
+  left: 6px;
+  position: absolute;
+  top: 9px;
+  width: calc(100.00% - 6px);
+}
+:root {
+  --allports: rgba(15,117,169,1.0);
+  --black: rgba(0,0,0,1.0);
+  --bon-jour: rgba(224,224,224,1.0);
+  --curious-blue: rgba(42,144,196,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --gun-powder: rgba(63,61,86,1.0);
+  --link-water: rgba(213,232,237,1.0);
+  --scarpa-flow: rgba(83,84,97,1.0);
+  --tuna: rgba(47,46,65,1.0);
+  --white: rgba(255,255,255,1.0);
+}

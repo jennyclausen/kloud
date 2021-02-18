@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/quiz-web-page-travel-habits.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Rubik:400");
+
+      @font-face {
+        font-family: "BrandonGrotesque-Medium";
+        font-style: normal;
+        font-weight: 500;
+        src: url("https://anima-uploads.s3.amazonaws.com/5ac3d53247b0c1000dd0614c/HVD Fonts - BrandonGrotesque-Medium.otf")
+          format("opentype");
+      }
+
+      @font-face {
+        font-family: "BrandonGrotesque-Bold";
+        font-style: normal;
+        font-weight: 700;
+        src: url("https://anima-uploads.s3.amazonaws.com/5b3c7db95d6b6a00096731e2/.10296.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "BrandonGrotesque-Regular";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/59fbfb04395dfa000bea0d9a/.10294.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: "SFProText-Semibold";
+        font-style: normal;
+        font-weight: 400;
+        src: url("https://anima-uploads.s3.amazonaws.com/5af2b9571afd72000d7270b4/SF-Pro-Text-Semibold.otf")
+          format("opentype");
+      }
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(213, 232, 237, 1)">
+    <input type="hidden" id="anPageName" name="page" value="quiz-web-page-travel-habits" />
+    <div class="container-center-horizontal">
+      <div class="quiz-web-page-travel-habits screen">
+        <div class="rectangle-183-C61RwL border-1px-dove-gray"></div>
+        <div class="the-kloud-quiz-C61RwL brandongrotesque-bold-curious-blue-48px">The Kloud Quiz</div>
+        <div class="travel-habits-C61RwL brandongrotesque-bold-curious-blue-28px">Travel Habits</div>
+        <a href="cta-page-2-quiz-score.html">
+          <div class="back-C61RwL"><img class="arrow-icon-7WGuVo" src="img/arrow-icon-9@1x.png" /></div
+        ></a>
+        <a href="quiz-web-page-lifestyle-habits.html">
+          <div class="back-VMr6Om"><img class="arrow-icon-0z3zes" src="img/arrow-icon-10@1x.png" /></div
+        ></a>
+        <div class="how-many-t-n-per-week-C61RwL brandongrotesque-medium-curious-blue-22px">
+          How many times do you carpool or use<br />public transportation per week?
+        </div>
+        <div class="how-many-t--in-a-year-C61RwL brandongrotesque-medium-curious-blue-22px">
+          How many times do you fly in a year?
+        </div>
+        <div class="how-many-r-e-per-year-C61RwL brandongrotesque-medium-curious-blue-22px">
+          How many road trips do you take per year?
+        </div>
+        <img class="line-29-C61RwL" src="img/line-29-2@1x.png" />
+        <img class="line-30-C61RwL" src="img/line-29-2@1x.png" />
+        <img class="line-31-C61RwL" src="img/line-29-2@1x.png" />
+        <div class="ellipse-27-C61RwL"></div>
+        <div class="ellipse-211-C61RwL"></div>
+        <div class="ellipse-212-C61RwL"></div>
+        <div class="group-141-C61RwL">
+          <img class="path-1296-Kqvq0x" src="img/path-1296-1@1x.png" />
+          <img class="path-1297-Kqvq0x" src="img/path-1297-1@1x.png" />
+          <img class="line-32-Kqvq0x" src="img/line-32-4@1x.png" />
+          <img class="line-35-Kqvq0x" src="img/line-32-4@1x.png" />
+          <img class="line-36-Kqvq0x" src="img/line-32-4@1x.png" />
+          <img class="line-37-Kqvq0x" src="img/line-32-4@1x.png" />
+          <div class="group-76-Kqvq0x">
+            <div class="ellipse-74-TIu14n"></div>
+            <img class="path-921-TIu14n" src="img/path-921@1x.png" />
+            <img class="path-922-TIu14n" src="img/path-922@1x.png" />
+            <img class="path-923-TIu14n" src="img/path-923@1x.png" />
+            <img class="path-924-TIu14n" src="img/path-924@1x.png" />
+            <img class="path-925-TIu14n" src="img/path-925@1x.png" />
+            <img class="path-926-TIu14n" src="img/path-926@1x.png" />
+            <img class="path-927-TIu14n" src="img/path-927@1x.png" />
+            <img class="path-928-TIu14n" src="img/path-928@1x.png" />
+            <img class="path-929-TIu14n" src="img/path-929@1x.png" />
+            <img class="path-930-TIu14n" src="img/path-930@1x.png" />
+            <img class="path-931-TIu14n" src="img/path-931@1x.png" />
+            <img class="path-932-TIu14n" src="img/path-932@1x.png" />
+            <img class="path-933-TIu14n" src="img/path-933@1x.png" />
+            <img class="path-934-TIu14n" src="img/path-928@1x.png" />
+            <img class="path-935-TIu14n" src="img/path-929@1x.png" />
+            <img class="path-936-TIu14n" src="img/path-936@1x.png" />
+            <img class="path-937-TIu14n" src="img/path-931@1x.png" />
+            <img class="path-938-TIu14n" src="img/path-932@1x.png" />
+            <div class="rectangle-82-TIu14n"></div>
+            <div class="ellipse-75-TIu14n"></div>
+            <img class="path-939-TIu14n" src="img/path-939@1x.png" />
+            <img class="path-940-TIu14n" src="img/path-940@1x.png" />
+            <img class="path-941-TIu14n" src="img/path-941@1x.png" />
+            <div class="rectangle-83-TIu14n"></div>
+            <img class="path-942-TIu14n" src="img/path-942@1x.png" />
+            <img class="path-943-TIu14n" src="img/path-943@1x.png" />
+            <img class="path-944-TIu14n" src="img/path-944@1x.png" />
+            <img class="path-945-TIu14n" src="img/path-945@1x.png" />
+            <img class="path-946-TIu14n" src="img/path-946@1x.png" />
+            <div class="ellipse-76-TIu14n"></div>
+            <img class="path-947-TIu14n" src="img/path-947@1x.png" />
+            <img class="path-948-TIu14n" src="img/path-948@1x.png" />
+            <img class="path-949-TIu14n" src="img/path-949@1x.png" />
+            <img class="path-950-TIu14n" src="img/path-950@1x.png" />
+            <img class="path-951-TIu14n" src="img/path-951@1x.png" />
+            <img class="path-952-TIu14n" src="img/path-952@1x.png" />
+            <img class="path-953-TIu14n" src="img/path-953@1x.png" />
+            <img class="path-954-TIu14n" src="img/path-954@1x.png" />
+            <img class="path-955-TIu14n" src="img/path-955@1x.png" />
+            <img class="path-956-TIu14n" src="img/path-956@1x.png" />
+            <img class="path-957-TIu14n" src="img/path-957@1x.png" />
+            <img class="path-958-TIu14n" src="img/path-958@1x.png" />
+            <img class="path-959-TIu14n" src="img/path-959@1x.png" />
+            <img class="path-960-TIu14n" src="img/path-960@1x.png" />
+            <img class="path-961-TIu14n" src="img/path-961@1x.png" />
+            <img class="path-962-TIu14n" src="img/path-962@1x.png" />
+            <img class="path-963-TIu14n" src="img/path-963@1x.png" />
+            <img class="path-964-TIu14n" src="img/path-964@1x.png" />
+            <img class="path-965-TIu14n" src="img/path-965@1x.png" />
+            <img class="path-966-TIu14n" src="img/path-966@1x.png" />
+            <img class="path-967-TIu14n" src="img/path-967@1x.png" />
+            <img class="path-968-TIu14n" src="img/path-968@1x.png" />
+            <img class="path-969-TIu14n" src="img/path-969@1x.png" />
+          </div>
+        </div>
+        <img class="path-1360-C61RwL" src="img/path-1299-1@1x.png" />
+        <img class="path-1362-C61RwL" src="img/path-1362@1x.png" />
+        <img class="path-1363-C61RwL" src="img/path-1299-1@1x.png" />
+        <img class="path-1364-C61RwL" src="img/path-1360-2@1x.png" />
+        <div class="web-top-nav-C61RwL">
+          <div class="web-top-navigation-kK5LvP border-1px-dove-gray"></div>
+          <a href="web-landing-page.html#quiz-web-page-driving-page"
+            ><div class="quiz-kK5LvP brandongrotesque-bold-white-36px">Quiz</div></a
+          >
+          <a href="web-landing-page.html#web-landing-page"
+            ><div class="aqi-kK5LvP brandongrotesque-bold-white-36px">AQI</div></a
+          >
+          <a href="cta-page-download-app.html"
+            ><div class="download-the-app-kK5LvP brandongrotesque-bold-white-36px">Download the app</div></a
+          >
+          <a href="web-landing-page.html#web-landing-page">
+            <div class="kloud-logo-1-kK5LvP">
+              <div class="group-137-jYl3HK">
+                <div class="group-17-cDetE7">
+                  <div class="group-16-ukg0kx"></div>
+                </div>
+                <div class="group-19-cDetE7">
+                  <div class="group-18-XIUO5Z"></div>
+                </div>
+                <div class="group-21-cDetE7">
+                  <div class="group-20-7x8muI"></div>
+                </div>
+                <div class="group-25-cDetE7">
+                  <div class="group-24-aa9dIM"></div>
+                </div>
+                <div class="group-27-cDetE7">
+                  <div class="group-26-V3c2Rx"></div>
+                </div>
+                <div class="group-29-cDetE7">
+                  <div class="group-28-cvrpxh"></div>
+                </div>
+                <div class="group-31-cDetE7">
+                  <div class="group-30-AKBqcO"></div>
+                </div>
+                <div class="group-33-cDetE7">
+                  <div class="group-32-1gxCSO"></div>
+                </div>
+              </div></div
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

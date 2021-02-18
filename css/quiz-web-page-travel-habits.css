@@ -1,0 +1,983 @@
+/* screen - quiz-web-page-travel-habits */
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+.brandongrotesque-bold-curious-blue-28px {
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-bold-curious-blue-48px {
+  color: rgba(41,143,195,1.0);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-bold-white-36px {
+  color: var(--white);
+  font-family: 'BrandonGrotesque-Bold', Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+.brandongrotesque-medium-curious-blue-22px {
+  color: var(--curious-blue);
+  font-family: 'BrandonGrotesque-Medium', Helvetica, Arial, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+.quiz-web-page-travel-habits {
+  background-color: var(--link-water);
+  height: 800px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1280px;
+}
+.quiz-web-page-travel-habits .aqi-kK5LvP {
+  background-color: transparent;
+  bottom: calc(18.25% - 10px);
+  height: 54px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  right: calc(39.85% - 26px);
+  text-align: left;
+  white-space: nowrap;
+  width: 66px;
+}
+.quiz-web-page-travel-habits .arrow-icon-0z3zes {
+  background-color: transparent;
+  height: 29px;
+  position: absolute;
+  right: calc(50.00% - 17px);
+  top: calc(50.00% - 14px);
+  width: 34px;
+}
+.quiz-web-page-travel-habits .arrow-icon-7WGuVo {
+  background-color: transparent;
+  height: 29px;
+  position: absolute;
+  right: calc(50.00% - 17px);
+  top: calc(50.00% - 14px);
+  transform: rotate(-180deg);
+  width: 34px;
+}
+.quiz-web-page-travel-habits .back-C61RwL {
+  background-color: rgba(26,108,161,1.0);
+  border-radius: 11px;
+  height: 65px;
+  left: 532px;
+  position: absolute;
+  top: 159px;
+  transform: rotate(180deg);
+  width: 62px;
+}
+.quiz-web-page-travel-habits .back-VMr6Om {
+  background-color: rgba(158,158,158,1.0);
+  border-radius: 11px;
+  height: 65px;
+  left: 190px;
+  position: absolute;
+  top: 159px;
+  width: 62px;
+}
+.quiz-web-page-travel-habits .download-the-app-kK5LvP {
+  background-color: transparent;
+  bottom: calc(18.25% - 10px);
+  height: 54px;
+  left: calc(40.87% - 106px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 259px;
+}
+.quiz-web-page-travel-habits .ellipse-211-C61RwL {
+  background-color: var(--link-water);
+  border-radius: 14.342536926269531px/14.342534065246582px;
+  height: 29px;
+  left: 485px;
+  position: absolute;
+  top: 629px;
+  width: 29px;
+}
+.quiz-web-page-travel-habits .ellipse-212-C61RwL {
+  background-color: var(--link-water);
+  border-radius: 14.342536926269531px/14.342534065246582px;
+  height: 29px;
+  left: 310px;
+  position: absolute;
+  top: 535px;
+  width: 29px;
+}
+.quiz-web-page-travel-habits .ellipse-27-C61RwL {
+  background-color: var(--link-water);
+  border-radius: 14.342536926269531px/14.342534065246582px;
+  height: 29px;
+  left: 293px;
+  position: absolute;
+  top: 714px;
+  width: 29px;
+}
+.quiz-web-page-travel-habits .ellipse-74-TIu14n {
+  background-color: var(--allports);
+  border-radius: 21.313796997070312px;
+  height: 43px;
+  left: 40px;
+  position: absolute;
+  top: calc(27.02% - 12px);
+  width: 43px;
+}
+.quiz-web-page-travel-habits .ellipse-75-TIu14n {
+  background-color: rgba(242,242,242,1.0);
+  border-radius: 0.8728070855140686px;
+  bottom: calc(30.44% - 1px);
+  height: 2px;
+  left: calc(43.09% - 1px);
+  position: absolute;
+  width: 2px;
+}
+.quiz-web-page-travel-habits .ellipse-76-TIu14n {
+  background-color: rgba(255,185,185,1.0);
+  border-radius: 3.9374680519104004px;
+  height: 8px;
+  left: calc(47.38% - 4px);
+  position: absolute;
+  top: calc(40.79% - 3px);
+  width: 8px;
+}
+.quiz-web-page-travel-habits .group-137-jYl3HK {
+  background-color: transparent;
+  height: 29.38%;
+  left: 14.26%;
+  position: relative;
+  top: 39.82%;
+  width: 71.40%;
+}
+.quiz-web-page-travel-habits .group-141-C61RwL {
+  background-color: transparent;
+  height: 439px;
+  left: 788px;
+  position: absolute;
+  top: 357px;
+  width: 690px;
+}
+.quiz-web-page-travel-habits .group-16-ukg0kx {
+  background-color: transparent;
+  background-image: url(../img/path-354-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 13px;
+}
+.quiz-web-page-travel-habits .group-17-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 13px;
+}
+.quiz-web-page-travel-habits .group-18-XIUO5Z {
+  background-color: transparent;
+  background-image: url(../img/path-355-10@1x.png);
+  background-size: 100% 100%;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+.quiz-web-page-travel-habits .group-19-cDetE7 {
+  background-color: transparent;
+  height: 30px;
+  left: 16px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+.quiz-web-page-travel-habits .group-20-7x8muI {
+  background-color: transparent;
+  background-image: url(../img/path-356-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 15px;
+}
+.quiz-web-page-travel-habits .group-21-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 33px;
+  position: absolute;
+  top: 0px;
+  width: 15px;
+}
+.quiz-web-page-travel-habits .group-24-aa9dIM {
+  background-color: transparent;
+  background-image: url(../img/path-358-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-travel-habits .group-25-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 58px;
+  position: absolute;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-travel-habits .group-26-V3c2Rx {
+  background-color: transparent;
+  background-image: url(../img/path-359-10@1x.png);
+  background-size: 100% 100%;
+  height: 28px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 12px;
+}
+.quiz-web-page-travel-habits .group-27-cDetE7 {
+  background-color: transparent;
+  height: 28px;
+  left: 78px;
+  position: absolute;
+  top: 1px;
+  width: 12px;
+}
+.quiz-web-page-travel-habits .group-28-cvrpxh {
+  background-color: transparent;
+  background-image: url(../img/path-360-10@1x.png);
+  background-size: 100% 100%;
+  height: 30px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 18px;
+}
+.quiz-web-page-travel-habits .group-29-cDetE7 {
+  background-color: transparent;
+  height: 30px;
+  left: 92px;
+  position: absolute;
+  top: 0px;
+  width: 18px;
+}
+.quiz-web-page-travel-habits .group-30-AKBqcO {
+  background-color: transparent;
+  background-image: url(../img/path-361-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 16px;
+}
+.quiz-web-page-travel-habits .group-31-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 111px;
+  position: absolute;
+  top: 1px;
+  width: 16px;
+}
+.quiz-web-page-travel-habits .group-32-1gxCSO {
+  background-color: transparent;
+  background-image: url(../img/path-362-10@1x.png);
+  background-size: 100% 100%;
+  height: 29px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-travel-habits .group-33-cDetE7 {
+  background-color: transparent;
+  height: 29px;
+  left: 130px;
+  position: absolute;
+  top: 0px;
+  width: 17px;
+}
+.quiz-web-page-travel-habits .group-7-AS5AU1 {
+  background-color: transparent;
+  background-image: url(../img/arrow-icon-10@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.quiz-web-page-travel-habits .group-7-re1yfc {
+  background-color: transparent;
+  background-image: url(../img/arrow-icon-9@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.quiz-web-page-travel-habits .group-76-Kqvq0x {
+  background-color: transparent;
+  bottom: calc(24.47% - 39px);
+  height: 160px;
+  left: 101px;
+  position: absolute;
+  width: 282px;
+}
+.quiz-web-page-travel-habits .how-many-r-e-per-year-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 230px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 674px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-travel-habits .how-many-t--in-a-year-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 252px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 582px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-travel-habits .how-many-t-n-per-week-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 485px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-travel-habits .kloud-logo-1-kK5LvP {
+  background-color: transparent;
+  background-image: url(../img/path-398-1@1x.png);
+  background-size: 100% 100%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 206px;
+}
+.quiz-web-page-travel-habits .line-29-C61RwL {
+  background-color: transparent;
+  height: 3px;
+  left: 239px;
+  position: absolute;
+  top: 550px;
+  width: 355px;
+}
+.quiz-web-page-travel-habits .line-30-C61RwL {
+  background-color: transparent;
+  height: 3px;
+  left: 238px;
+  position: absolute;
+  top: 641px;
+  width: 355px;
+}
+.quiz-web-page-travel-habits .line-31-C61RwL {
+  background-color: transparent;
+  height: 3px;
+  left: 238px;
+  position: absolute;
+  top: 727px;
+  width: 355px;
+}
+.quiz-web-page-travel-habits .line-32-Kqvq0x {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  left: 86px;
+  position: absolute;
+  width: 72px;
+}
+.quiz-web-page-travel-habits .line-35-Kqvq0x {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  left: calc(26.84% - 19px);
+  position: absolute;
+  width: 72px;
+}
+.quiz-web-page-travel-habits .line-36-Kqvq0x {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  left: calc(39.78% - 29px);
+  position: absolute;
+  width: 72px;
+}
+.quiz-web-page-travel-habits .line-37-Kqvq0x {
+  background-color: transparent;
+  bottom: 34px;
+  height: 3px;
+  position: absolute;
+  right: calc(47.28% - 34px);
+  width: 72px;
+}
+.quiz-web-page-travel-habits .path-1296-Kqvq0x {
+  background-color: transparent;
+  height: calc(100.00% - 5px);
+  left: 0px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+}
+.quiz-web-page-travel-habits .path-1297-Kqvq0x {
+  background-color: transparent;
+  height: 158px;
+  position: absolute;
+  right: calc(46.70% - 95px);
+  top: 1px;
+  width: 203px;
+}
+.quiz-web-page-travel-habits .path-1360-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 825px;
+  position: absolute;
+  top: 400px;
+  width: 147px;
+}
+.quiz-web-page-travel-habits .path-1362-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1085px;
+  position: absolute;
+  top: 400px;
+  width: 147px;
+}
+.quiz-web-page-travel-habits .path-1363-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 1060px;
+  position: absolute;
+  top: 159px;
+  width: 147px;
+}
+.quiz-web-page-travel-habits .path-1364-C61RwL {
+  background-color: transparent;
+  height: 34px;
+  left: 913px;
+  position: absolute;
+  top: 258px;
+  width: 147px;
+}
+.quiz-web-page-travel-habits .path-921-TIu14n {
+  background-color: transparent;
+  height: calc(100.00% - 18px);
+  left: 6px;
+  position: absolute;
+  top: 18px;
+  width: calc(100.00% - 15px);
+}
+.quiz-web-page-travel-habits .path-922-TIu14n {
+  background-color: transparent;
+  height: 21px;
+  left: calc(26.54% - 4px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: calc(21.35% - 4px);
+  width: 15px;
+}
+.quiz-web-page-travel-habits .path-923-TIu14n {
+  background-color: transparent;
+  bottom: 21px;
+  height: 69px;
+  left: calc(40.06% - 16px);
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 39px;
+}
+.quiz-web-page-travel-habits .path-924-TIu14n {
+  background-color: transparent;
+  height: 37px;
+  left: calc(45.78% - 18px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: calc(37.69% - 14px);
+  width: 39px;
+}
+.quiz-web-page-travel-habits .path-925-TIu14n {
+  background-color: transparent;
+  bottom: 18px;
+  height: 64px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: calc(30.81% - 20px);
+  width: 64px;
+}
+.quiz-web-page-travel-habits .path-926-TIu14n {
+  background-color: transparent;
+  bottom: 0px;
+  height: 27px;
+  left: 1px;
+  position: absolute;
+  width: 100%;
+}
+.quiz-web-page-travel-habits .path-927-TIu14n {
+  background-color: transparent;
+  bottom: 18px;
+  height: 29px;
+  left: 18px;
+  position: absolute;
+  width: 22px;
+}
+.quiz-web-page-travel-habits .path-928-TIu14n {
+  background-color: transparent;
+  bottom: 18px;
+  height: 29px;
+  left: 40px;
+  position: absolute;
+  width: 25px;
+}
+.quiz-web-page-travel-habits .path-929-TIu14n {
+  background-color: transparent;
+  bottom: 18px;
+  height: 27px;
+  left: 26px;
+  position: absolute;
+  width: 14px;
+}
+.quiz-web-page-travel-habits .path-930-TIu14n {
+  background-color: transparent;
+  bottom: 18px;
+  height: 37px;
+  left: 40px;
+  position: absolute;
+  width: 29px;
+}
+.quiz-web-page-travel-habits .path-931-TIu14n {
+  background-color: transparent;
+  bottom: 14px;
+  height: 6px;
+  left: 35px;
+  position: absolute;
+  width: 12px;
+}
+.quiz-web-page-travel-habits .path-932-TIu14n {
+  background-color: transparent;
+  bottom: 14px;
+  height: 4px;
+  left: 35px;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 12px;
+}
+.quiz-web-page-travel-habits .path-933-TIu14n {
+  background-color: transparent;
+  bottom: 20px;
+  height: 29px;
+  position: absolute;
+  right: calc(27.08% - 6px);
+  width: 22px;
+}
+.quiz-web-page-travel-habits .path-934-TIu14n {
+  background-color: transparent;
+  bottom: 20px;
+  height: 29px;
+  position: absolute;
+  right: calc(17.68% - 4px);
+  width: 25px;
+}
+.quiz-web-page-travel-habits .path-935-TIu14n {
+  background-color: transparent;
+  bottom: 20px;
+  height: 27px;
+  position: absolute;
+  right: calc(26.26% - 4px);
+  width: 14px;
+}
+.quiz-web-page-travel-habits .path-936-TIu14n {
+  background-color: transparent;
+  bottom: 20px;
+  height: 37px;
+  position: absolute;
+  right: 42px;
+  width: 29px;
+}
+.quiz-web-page-travel-habits .path-937-TIu14n {
+  background-color: transparent;
+  bottom: 16px;
+  height: 6px;
+  position: absolute;
+  right: calc(23.41% - 3px);
+  width: 12px;
+}
+.quiz-web-page-travel-habits .path-938-TIu14n {
+  background-color: transparent;
+  bottom: 16px;
+  height: 4px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: calc(23.41% - 3px);
+  width: 12px;
+}
+.quiz-web-page-travel-habits .path-939-TIu14n {
+  background-color: transparent;
+  bottom: calc(32.86% - 3px);
+  height: 8px;
+  left: calc(43.60% - 1px);
+  position: absolute;
+  width: 3px;
+}
+.quiz-web-page-travel-habits .path-940-TIu14n {
+  background-color: transparent;
+  bottom: calc(42.98% - 12px);
+  height: 28px;
+  left: calc(44.00% - 2px);
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-travel-habits .path-941-TIu14n {
+  background-color: transparent;
+  bottom: calc(42.98% - 12px);
+  height: 28px;
+  left: calc(44.00% - 2px);
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 6px;
+}
+.quiz-web-page-travel-habits .path-942-TIu14n {
+  background-color: transparent;
+  height: 14px;
+  left: calc(47.06% - 4px);
+  position: absolute;
+  top: calc(45.97% - 6px);
+  width: 9px;
+}
+.quiz-web-page-travel-habits .path-943-TIu14n {
+  background-color: transparent;
+  height: 14px;
+  left: calc(47.06% - 4px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: calc(45.97% - 6px);
+  width: 9px;
+}
+.quiz-web-page-travel-habits .path-944-TIu14n {
+  background-color: transparent;
+  bottom: 22px;
+  height: 3px;
+  left: calc(47.03% - 1px);
+  position: absolute;
+  width: 3px;
+}
+.quiz-web-page-travel-habits .path-945-TIu14n {
+  background-color: transparent;
+  bottom: 24px;
+  height: 4px;
+  left: calc(49.49% - 1px);
+  position: absolute;
+  width: 3px;
+}
+.quiz-web-page-travel-habits .path-946-TIu14n {
+  background-color: transparent;
+  bottom: calc(20.32% - 8px);
+  height: 41px;
+  left: calc(47.87% - 9px);
+  position: absolute;
+  width: 19px;
+}
+.quiz-web-page-travel-habits .path-947-TIu14n {
+  background-color: transparent;
+  bottom: calc(46.04% - 10px);
+  height: 22px;
+  left: calc(47.04% - 5px);
+  position: absolute;
+  width: 12px;
+}
+.quiz-web-page-travel-habits .path-948-TIu14n {
+  background-color: transparent;
+  bottom: calc(41.35% - 15px);
+  height: 37px;
+  left: calc(45.39% - 5px);
+  position: absolute;
+  width: 11px;
+}
+.quiz-web-page-travel-habits .path-949-TIu14n {
+  background-color: transparent;
+  bottom: calc(41.63% - 16px);
+  height: 37px;
+  left: calc(49.60% - 7px);
+  position: absolute;
+  width: 15px;
+}
+.quiz-web-page-travel-habits .path-950-TIu14n {
+  background-color: transparent;
+  bottom: calc(33.04% - 3px);
+  height: 9px;
+  left: calc(49.77% - 2px);
+  position: absolute;
+  width: 4px;
+}
+.quiz-web-page-travel-habits .path-951-TIu14n {
+  background-color: transparent;
+  bottom: 16px;
+  height: 8px;
+  left: calc(46.75% - 4px);
+  position: absolute;
+  width: 8px;
+}
+.quiz-web-page-travel-habits .path-952-TIu14n {
+  background-color: transparent;
+  bottom: 15px;
+  height: 11px;
+  left: calc(49.79% - 4px);
+  position: absolute;
+  width: 8px;
+}
+.quiz-web-page-travel-habits .path-953-TIu14n {
+  background-color: transparent;
+  bottom: calc(43.35% - 12px);
+  height: 28px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: calc(49.79% - 3px);
+  width: 5px;
+}
+.quiz-web-page-travel-habits .path-954-TIu14n {
+  background-color: transparent;
+  bottom: calc(43.83% - 13px);
+  height: 30px;
+  position: absolute;
+  right: calc(49.72% - 3px);
+  width: 5px;
+}
+.quiz-web-page-travel-habits .path-955-TIu14n {
+  background-color: transparent;
+  height: 26px;
+  left: calc(47.09% - 8px);
+  position: absolute;
+  top: calc(43.82% - 11px);
+  width: 18px;
+}
+.quiz-web-page-travel-habits .path-956-TIu14n {
+  background-color: transparent;
+  height: 22px;
+  position: absolute;
+  right: 33px;
+  top: 6px;
+  width: 108px;
+}
+.quiz-web-page-travel-habits .path-957-TIu14n {
+  background-color: transparent;
+  height: 16px;
+  position: absolute;
+  right: 25px;
+  top: 5px;
+  width: 28px;
+}
+.quiz-web-page-travel-habits .path-958-TIu14n {
+  background-color: transparent;
+  height: 15px;
+  position: absolute;
+  right: calc(24.14% - 11px);
+  top: 1px;
+  width: 45px;
+}
+.quiz-web-page-travel-habits .path-959-TIu14n {
+  background-color: transparent;
+  height: 17px;
+  position: absolute;
+  right: 41px;
+  top: 11px;
+  width: 100px;
+}
+.quiz-web-page-travel-habits .path-960-TIu14n {
+  background-color: transparent;
+  height: 9px;
+  position: absolute;
+  right: 25px;
+  top: calc(16.24% - 1px);
+  width: 22px;
+}
+.quiz-web-page-travel-habits .path-961-TIu14n {
+  background-color: transparent;
+  height: 4px;
+  position: absolute;
+  right: calc(47.33% - 3px);
+  top: 8px;
+  width: 6px;
+}
+.quiz-web-page-travel-habits .path-962-TIu14n {
+  background-color: transparent;
+  height: 28px;
+  position: absolute;
+  right: calc(23.54% - 12px);
+  top: 23px;
+  width: 51px;
+}
+.quiz-web-page-travel-habits .path-963-TIu14n {
+  background-color: transparent;
+  height: 22px;
+  position: absolute;
+  right: 33px;
+  top: 6px;
+  width: 108px;
+}
+.quiz-web-page-travel-habits .path-964-TIu14n {
+  background-color: transparent;
+  height: 16px;
+  position: absolute;
+  right: 25px;
+  top: 5px;
+  width: 28px;
+}
+.quiz-web-page-travel-habits .path-965-TIu14n {
+  background-color: transparent;
+  height: 15px;
+  position: absolute;
+  right: calc(24.14% - 11px);
+  top: 1px;
+  width: 45px;
+}
+.quiz-web-page-travel-habits .path-966-TIu14n {
+  background-color: transparent;
+  height: 17px;
+  position: absolute;
+  right: 41px;
+  top: 11px;
+  width: 100px;
+}
+.quiz-web-page-travel-habits .path-967-TIu14n {
+  background-color: transparent;
+  height: 9px;
+  position: absolute;
+  right: 25px;
+  top: calc(16.24% - 1px);
+  width: 22px;
+}
+.quiz-web-page-travel-habits .path-968-TIu14n {
+  background-color: transparent;
+  height: 4px;
+  position: absolute;
+  right: calc(47.33% - 3px);
+  top: 8px;
+  width: 6px;
+}
+.quiz-web-page-travel-habits .path-969-TIu14n {
+  background-color: transparent;
+  height: 28px;
+  position: absolute;
+  right: calc(23.54% - 12px);
+  top: 23px;
+  width: 51px;
+}
+.quiz-web-page-travel-habits .quiz-kK5LvP {
+  background-color: transparent;
+  bottom: calc(24.34% - 13px);
+  height: 54px;
+  left: calc(24.24% - 17px);
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 70px;
+}
+.quiz-web-page-travel-habits .rectangle-183-C61RwL {
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 685px;
+  left: 58px;
+  position: absolute;
+  top: 115px;
+  width: 709px;
+}
+.quiz-web-page-travel-habits .rectangle-82-TIu14n {
+  background-color: var(--gun-powder);
+  bottom: calc(28.44% - 2px);
+  height: 8px;
+  left: calc(43.02% - 2px);
+  position: absolute;
+  width: 4px;
+}
+.quiz-web-page-travel-habits .rectangle-83-TIu14n {
+  background-color: var(--tuna);
+  height: 9px;
+  left: calc(47.20% - 4px);
+  position: absolute;
+  top: calc(41.87% - 4px);
+  width: 9px;
+}
+.quiz-web-page-travel-habits .the-kloud-quiz-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 268px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 234px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-travel-habits .travel-habits-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 344px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 387px;
+  white-space: nowrap;
+  width: auto;
+}
+.quiz-web-page-travel-habits .web-top-nav-C61RwL {
+  background-color: transparent;
+  height: 103px;
+  left: -6px;
+  position: absolute;
+  top: -9px;
+  width: 1286px;
+}
+.quiz-web-page-travel-habits .web-top-navigation-kK5LvP {
+  background-color: rgba(19,30,50,1.0);
+  height: calc(100.00% - 9px);
+  left: 6px;
+  position: absolute;
+  top: 9px;
+  width: calc(100.00% - 6px);
+}
+:root {
+  --allports: rgba(15,117,169,1.0);
+  --black: rgba(0,0,0,1.0);
+  --bon-jour: rgba(224,224,224,1.0);
+  --curious-blue: rgba(42,144,196,1.0);
+  --dove-gray: rgba(112,112,112,1.0);
+  --gun-powder: rgba(63,61,86,1.0);
+  --link-water: rgba(213,232,237,1.0);
+  --scarpa-flow: rgba(83,84,97,1.0);
+  --tuna: rgba(47,46,65,1.0);
+  --white: rgba(255,255,255,1.0);
+}
